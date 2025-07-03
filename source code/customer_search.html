@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bookstore Database Management</title>
+    <style>
+        body {
+            font-family: Trebuchet MS, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+            color: #614530;
+        }
+
+        h1, h2 {
+            color: #614530;
+        }
+
+        form {
+            background-color: #B09684;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        input[type=text], 
+        input[type=password], 
+        input[type=email], 
+        input[type=number], 
+        input[type=date] {
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin: 5px 0 20px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type=submit] {
+            width: 100%;
+            background-color: #704F38;
+            color: #C4A893;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: #4D3626;
+        }
+
+        label {
+            margin-top: 20px;
+            display: block;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Bookstore Database Management System</h1>
+
+    <!-- Customer Search Book Form -->
+    <h2>Search for Book</h2>
+    <form method="post" action="customerSearch.php">
+        Title: <input type="text" name="title" required><br>
+        Genre: <input type="text" name="genre" required><br>
+        Age Rating: <input type="number" name="age_rating" required><br>
+        <input type="submit" value="Search Book">
+    </form>
+
+</body>
+</html>

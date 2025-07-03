@@ -1,0 +1,27 @@
+book_id,price,age_rating,genre,quantity_available,title
+1,20,12,Fantasy,10,Magic Quest
+2,25,16,Sci-Fi,5,Star Voyage
+6,15,12,Sci-Fi,2,Cloak of Darkness
+18,10,15,Sci-Fi,6,Defenders of Peace
+19,17,20,Sci-Fi,3,Blue Shadow Virus
+3,18,10,Mystery,15,The Secret of the Old Clock
+4,22,18,Horror,8,Nightmare Alley
+5,30,14,Adventure,12,Jungle Escape
+10,17,12,Fantasy,20,The Enchanted Forest
+7,24,16,Sci-Fi,7,Galactic Odyssey
+8,20,10,Historical,10,The Forgotten Empire
+9,27,18,Thriller,5,The Last Witness
+13,15,14,Romance,9,Love in the Time of Cholera
+11,19,12,Fantasy,17,The Crystal Cave
+12,23,16,Mystery,11,Murder on the Orient Express
+20,21,14,Drama,4,Echoes of the Past
+21,26,18,Non-Fiction,8,The Innovators
+22,28,12,Children,15,The Adventures of Pixie
+23,16,10,Comedy,10,Laughter in the Air
+24,23,16,Action,6,The Final Stand
+25,19,14,Fantasy,9,Guardians of the Realm
+26,22,18,Mystery,5,Shadows in the Mist
+27,25,12,Sci-Fi,12,Voyage Beyond
+28,17,10,Biography,7,Life of Discovery
+29,30,20,Thriller,3,Edge of Tomorrow
+30,12,22,Action,16,Shadow of Malevolence
